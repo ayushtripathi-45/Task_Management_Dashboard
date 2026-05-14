@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/index.ts",
-    "build": "npm install --include=dev && tsc",
-    "postinstall": "npm run build",
-    "start": "node dist/index.js"
+    "start": "tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,13 +16,11 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoose": "^9.6.2"
-  },
-  "devDependencies": {
+    "mongoose": "^9.6.2",
+    "tsx": "^4.22.0",
+    "typescript": "^6.0.3",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
-    "@types/node": "^25.8.0",
-    "tsx": "^4.22.0",
-    "typescript": "^6.0.3"
+    "@types/node": "^25.8.0"
   }
 }
