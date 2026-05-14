@@ -11,6 +11,7 @@
     "moduleResolution": "node",
     "target": "es2020",
     "esModuleInterop": true,
+    "ignoreDeprecations": "6.0",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
