@@ -3,10 +3,12 @@
 > A modern, full-stack task management application built with React, TypeScript, and Express.js for efficient workflow organization and task tracking.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20Now-brightgreen?style=for-the-badge)](https://task-management-dashboard-ochre.vercel.app)
-![GitHub repo size](https://img.shields.io/github/repo-size/ayushtripathi-45/Task_Management_Dashboard)
-![GitHub stars](https://img.shields.io/github/stars/ayushtripathi-45/Task_Management_Dashboard?style=social)
-![GitHub forks](https://img.shields.io/github/forks/ayushtripathi-45/Task_Management_Dashboard?style=social)
 
+![Stars](https://img.shields.io/github/stars/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge&t=1)
+
+![Forks](https://img.shields.io/github/forks/ayushtripathi-45/Task_Management_Dashboard.svg?style=for-the-badge)
+
+![Repo Size](https://img.shields.io/github/repo-size/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge)
 <div align="center">
   <img src="https://img.icons8.com/fluency/48/csv.png" alt="CSV icon" />
   <img src="https://img.icons8.com/fluency/48/data-configuration.png" alt="Data icon" />
