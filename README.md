@@ -10,7 +10,7 @@
 A feature-rich task management application built with React, TypeScript, Node.js, and Express.js to streamline workflows, organize projects, and boost productivity.
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Create+Tasks;Manage+Workflows;Track+Progress;Boost+Productivity;Kanban+Board+Experience;Built+With+React+%26+TypeScript" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Create+Tasks;Manage+Workflows;Track+Progress;Boost+Productivity;Kanban+Board+Experience;Built+With+React" />
 
 <br><br>
 
@@ -23,7 +23,7 @@ A feature-rich task management application built with React, TypeScript, Node.js
 
 <img src="https://img.shields.io/github/repo-size/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge" />
 
-<img src="https://img.shields.io/github/last-commit/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Last%20Commit-May%202026-7C3AED?style=for-the-badge" />
 
 <img src="https://komarev.com/ghpvc/?username=ayushtripathi-45&repo=Task_Management_Dashboard&label=Repository%20Views&color=7C3AED&style=for-the-badge" />
 
@@ -37,7 +37,13 @@ A feature-rich task management application built with React, TypeScript, Node.js
   <img src="./assets/demo.gif" width="100%" alt="Project Demo">
 </p>
 
-> Replace `demo.gif` with your dashboard walkthrough recording.
+> 
+
+https://github.com/user-attachments/assets/66a34b26-961b-472c-9de3-a0e72de615db
+
+
+
+
 
 ---
 
