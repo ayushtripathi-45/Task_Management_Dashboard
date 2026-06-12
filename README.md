@@ -1,378 +1,433 @@
 # 📊 Task Management Dashboard
 
-> A modern, full-stack task management application built with React, TypeScript, and Express.js for efficient workflow organization and task tracking.
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20Now-brightgreen?style=for-the-badge)](https://task-management-dashboard-ochre.vercel.app)
-
-![Stars](https://img.shields.io/github/stars/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge&t=1)
-
-![Forks](https://img.shields.io/github/forks/ayushtripathi-45/Task_Management_Dashboard.svg?style=for-the-badge)
-
-![Repo Size](https://img.shields.io/github/repo-size/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge)
 <div align="center">
-  <img src="https://img.icons8.com/fluency/48/csv.png" alt="CSV icon" />
-  <img src="https://img.icons8.com/fluency/48/data-configuration.png" alt="Data icon" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:4F46E5,50:7C3AED,100:06B6D4&text=Task%20Management%20Dashboard&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%" />
+
+<h3>🚀 Modern Full-Stack Productivity Platform</h3>
+
+<p>
+A feature-rich task management application built with React, TypeScript, Node.js, and Express.js to streamline workflows, organize projects, and boost productivity.
+</p>
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Create+Tasks;Manage+Workflows;Track+Progress;Boost+Productivity;Kanban+Board+Experience;Built+With+React+%26+TypeScript" />
+
+<br><br>
+
+<a href="https://task-management-dashboard-ochre.vercel.app">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-success?style=for-the-badge" />
+</a>
+
+<img src="https://img.shields.io/github/stars/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge" />
+
+
+<img src="https://img.shields.io/github/repo-size/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge" />
+
+<img src="https://img.shields.io/github/last-commit/ayushtripathi-45/Task_Management_Dashboard?style=for-the-badge" />
+
+<img src="https://komarev.com/ghpvc/?username=ayushtripathi-45&repo=Task_Management_Dashboard&label=Repository%20Views&color=7C3AED&style=for-the-badge" />
+
 </div>
 
 ---
 
-## ✨ Features
+# 🎥 Live Demo
 
-- 📝 **Create & Manage Tasks** - Easily add, edit, and delete tasks with a clean interface
-- 🎯 **Task Status Tracking** - Track tasks through different statuses (Todo, In Progress, Done)
-- 🎨 **Intuitive UI** - Beautiful, responsive design with smooth animations
-- ⚡ **Real-time Updates** - Instant feedback when performing actions
-- 🔄 **Drag & Drop** - Move tasks between different status columns
-- 📱 **Responsive Design** - Works seamlessly on desktop and mobile devices
-- 🎯 **Priority Levels** - Assign priority levels to tasks
-- 🏷️ **Task Categories** - Organize tasks with categories and tags
-- 🌙 **Dark Mode Support** - Eye-friendly dark theme option
+<p align="center">
+  <img src="./assets/demo.gif" width="100%" alt="Project Demo">
+</p>
+
+> Replace `demo.gif` with your dashboard walkthrough recording.
 
 ---
 
-## 🏗️ Project Structure
+# ✨ Overview
 
+Task Management Dashboard is a modern productivity-focused web application that allows users to efficiently organize, prioritize, track, and manage tasks through a clean and intuitive Kanban board interface.
+
+---
+
+# 🏆 Key Features
+
+<table>
+<tr>
+
+<td width="50%">
+
+## 📝 Task Management
+
+* Create Tasks
+* Edit Tasks
+* Delete Tasks
+* Update Task Status
+* Task Categories
+* Priority Levels
+* Due Dates
+
+</td>
+
+<td width="50%">
+
+## 🎨 User Experience
+
+* Responsive Design
+* Smooth Animations
+* Modern UI
+* Dark Mode Support
+* Drag & Drop
+* Interactive Components
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# 📸 Screenshots
+
+<img width="1363" height="634" alt="image" src="https://github.com/user-attachments/assets/4ffe91d0-5305-4f16-9389-46c0216e364f" />
+
+---
+
+# ⚙️ Built With
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react,typescript,nodejs,express,vite,html,css,js,git,github,npm,vscode" />
+
+</p>
+
+---
+
+# 🛠 Tech Stack
+
+| Category           | Technologies |
+| ------------------ | ------------ |
+| Frontend           | React 18     |
+| Styling            | CSS3         |
+| Build Tool         | Vite         |
+| HTTP Client        | Axios        |
+| Backend            | Node.js      |
+| Version Control    | Git          |
+| Repository Hosting | GitHub       |
+
+---
+
+# 🏗 System Architecture
+
+
+### Architecture Flow
+
+```text
+React Frontend
+      │
+      ▼
+Axios API Layer
+      │
+      ▼
+   Backend
+      │
+      ▼
+Task Routes
+      │
+      ▼
+Task Model
+      │
+      ▼
+Database
 ```
+
+---
+
+# 🔄 Application Workflow
+
+
+```text
+User
+ ↓
+Create Task
+ ↓
+Assign Priority
+ ↓
+Manage Progress
+ ↓
+Move Between Columns
+ ↓
+Complete Task
+ ↓
+Productivity Improved 🚀
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
 Task_Management_Dashboard/
-├── 📁 backend/
-│   ├── 📁 src/
-│   │   ├── index.ts              # Express server entry point
-│   │   ├── 📁 models/
-│   │   │   └── Task.ts           # Task data model schema
-│   │   └── 📁 routes/
-│   │       └── tasks.ts          # API endpoints for task operations
-│   ├── package.json              # Backend dependencies
-│   ├── tsconfig.json             # TypeScript configuration
-│   └── package-lock.json         # Dependency lock file
 │
-├── 📁 frontend/
-│   ├── 📁 src/
-│   │   ├── main.tsx              # React app entry point
-│   │   ├── App.tsx               # Main app component
-│   │   ├── api.ts                # API client for backend communication
-│   │   ├── App.css               # Global styles
-│   │   ├── index.css             # Index styles
-│   │   ├── 📁 components/
-│   │   │   ├── TaskBoard.tsx      # Main task board layout
-│   │   │   ├── TaskCard.tsx       # Individual task card component
-│   │   │   └── TaskModal.tsx      # Modal for creating/editing tasks
-│   │   └── 📁 assets/
-│   │       ├── hero.png          # Hero image
-│   │       ├── react.svg          # React logo
-│   │       └── vite.svg           # Vite logo
-│   ├── index.html                # HTML entry point
-│   ├── vite.config.ts            # Vite configuration
-│   ├── tsconfig.json             # TypeScript configuration
-│   ├── eslint.config.js          # ESLint configuration
-│   ├── package.json              # Frontend dependencies
-│   └── package-lock.json         # Dependency lock file
+├── backend/
+│   ├── src/
+│   │   ├── index.ts
+│   │   ├── models/
+│   │   └── routes/
+│   ├── package.json
+│   └── tsconfig.json
 │
-├── README.md                     # This file
-└── .gitignore                    # Git ignore rules
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── assets/
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── assets/
+│   ├── demo.gif
+│   ├── light-mode.png
+│   ├── dark-mode.png
+│   ├── architecture.png
+│   └── workflow.png
+│
+└── README.md
 ```
 
 ---
 
-## 🛠️ Tech Stack
-
-### Frontend
-| Technology | Purpose |
-|-----------|---------|
-| **React 18** | UI library for building interactive components |
-| **TypeScript** | Type-safe JavaScript for robust development |
-| **Vite** | Lightning-fast build tool and dev server |
-| **CSS 3** | Styling and animations |
-| **Axios** | HTTP client for API communication |
-| **ESLint** | Code quality and consistency |
-
-### Backend
-| Technology | Purpose |
-|-----------|---------|
-| **Node.js** | JavaScript runtime environment |
-| **Express.js** | Minimalist web framework for APIs |
-| **TypeScript** | Type-safe backend development |
-| **RESTful APIs** | Standard API architecture |
-
-### Tools & Environment
-| Tool | Purpose |
-|------|---------|
-| **Git** | Version control |
-| **npm** | Package manager |
-| **GitHub** | Repository hosting |
-
 ---
 
-## 🚀 Getting Started
+## Clone Repository
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm (v6 or higher)
-- Git
-
-### Installation
-
-1. **Clone the repository**
 ```bash
 git clone https://github.com/ayushtripathi-45/Task_Management_Dashboard.git
+
 cd Task_Management_Dashboard
 ```
 
-2. **Set up the backend**
+---
+
+## Backend Setup
+
 ```bash
 cd backend
+
 npm install
+
 npm run dev
 ```
-The backend server will run on `http://localhost:3000`
 
-3. **Set up the frontend (in a new terminal)**
+Backend runs at:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## Frontend Setup
+
 ```bash
 cd frontend
+
 npm install
+
 npm run dev
 ```
-The frontend app will run on `http://localhost:5173`
 
-### Build for Production
+Frontend runs at:
 
-**Backend:**
 ```bash
-cd backend
-npm run build
-npm start
-```
-
-**Frontend:**
-```bash
-cd frontend
-npm run build
+http://localhost:5173
 ```
 
 ---
 
-## 📖 Usage
+# 🎯 Core Functionalities
 
-### Creating a Task
-1. Click the **"+ New Task"** button
-2. Fill in the task details:
-   - Title
-   - Description
-   - Priority level
-   - Category
-3. Click **"Create"** to add the task
+## CRUD Operations
 
-### Managing Tasks
-- **Edit**: Click the edit icon on a task card to modify details
-- **Delete**: Click the trash icon to remove a task
-- **Drag & Drop**: Move tasks between status columns
-- **Update Status**: Drag tasks to change their status (Todo → In Progress → Done)
+✅ Create Tasks
 
-### Filtering & Sorting
-- Filter by priority level
-- Filter by category
-- Sort by date created or due date
-- Search tasks by title or description
+✅ Read Tasks
+
+✅ Update Tasks
+
+✅ Delete Tasks
 
 ---
 
-## 🌟 Functionality
+## Task Properties
 
-### Task Operations
-✅ **Create** - Add new tasks with detailed information  
-✅ **Read** - View all tasks in an organized board view  
-✅ **Update** - Modify task details and status  
-✅ **Delete** - Remove completed or unnecessary tasks  
-
-### Task Properties
-- **Title** - Task name/heading
-- **Description** - Detailed task information
-- **Status** - Todo, In Progress, Done
-- **Priority** - High, Medium, Low
-- **Category** - Organize tasks by type
-- **Due Date** - Set deadlines for tasks
-- **Created Date** - Timestamp of creation
-- **Tags** - Additional labeling options
-
-### Board Features
-- **Kanban View** - Visual status-based organization
-- **Card Animations** - Smooth transitions and hover effects
-- **Real-time Updates** - Instant UI refresh on actions
-- **Responsive Layout** - Adapts to all screen sizes
+| Property     | Description             |
+| ------------ | ----------------------- |
+| Title        | Task Name               |
+| Description  | Detailed Information    |
+| Status       | Todo, In Progress, Done |
+| Priority     | Low, Medium, High       |
+| Category     | Task Classification     |
+| Due Date     | Deadline                |
+| Created Date | Creation Timestamp      |
+| Tags         | Custom Labels           |
 
 ---
 
-## 🔮 Future Enhancements
+## Board Features
 
-### Short Term (Next Release)
-- 🔐 **User Authentication** - Login/signup functionality with JWT tokens
-- 💾 **Data Persistence** - MongoDB or PostgreSQL integration
-- 📧 **Email Notifications** - Task reminders and updates
-- 🔔 **In-app Notifications** - Real-time notification system
-- 📊 **Task Statistics** - Dashboard with completion rates and charts
-
-### Medium Term
-- 👥 **Team Collaboration** - Multi-user task assignment
-- 💬 **Comments & Discussion** - Add comments to tasks
-- 📎 **File Attachments** - Upload files to tasks
-- 🔄 **Recurring Tasks** - Set up repeating tasks
-- 📱 **Mobile App** - Native iOS/Android applications
-- 🌍 **Internationalization** - Multi-language support
-
-### Long Term
-- 🤖 **AI Integration** - Smart task suggestions and automation
-- 📅 **Calendar View** - Integrated calendar for due dates
-- 🎯 **Goal Tracking** - Link tasks to larger goals
-- 📈 **Advanced Analytics** - Detailed productivity insights
-- 🔌 **Integrations** - Slack, Outlook, Google Calendar integrations
-- 🌙 **Advanced Theming** - Custom themes and personalization
+* 📋 Kanban Board Layout
+* 🎯 Priority Management
+* 🏷 Categories & Tags
+* ⚡ Real-Time Updates
+* 🎨 Smooth Animations
+* 📱 Mobile Responsive
 
 ---
 
-## 📦 API Endpoints
+# 📦 API Endpoints
 
-### Tasks API
-```
-GET    /api/tasks              # Get all tasks
-POST   /api/tasks              # Create a new task
-GET    /api/tasks/:id          # Get a specific task
-PUT    /api/tasks/:id          # Update a task
-DELETE /api/tasks/:id          # Delete a task
+### Tasks
+
+```http
+GET     /api/tasks
+POST    /api/tasks
+GET     /api/tasks/:id
+PUT     /api/tasks/:id
+DELETE  /api/tasks/:id
 ```
 
-### Request/Response Format
+### Example Response
+
 ```json
 {
-  "id": "unique-id",
-  "title": "Task Title",
-  "description": "Task description",
-  "status": "todo|in-progress|done",
-  "priority": "low|medium|high",
-  "category": "Category Name",
-  "dueDate": "2024-12-31",
-  "createdDate": "2024-01-01",
-  "tags": ["tag1", "tag2"]
+  "id": "123",
+  "title": "Build Dashboard",
+  "description": "Create task management UI",
+  "status": "in-progress",
+  "priority": "high",
+  "category": "Development",
+  "dueDate": "2026-12-31"
 }
 ```
 
 ---
 
-## 🎨 Styling & Animations
+# 📊 Project Status
 
-### Color Scheme
-- **Primary**: #007BFF (Blue)
-- **Success**: #28A745 (Green)
-- **Warning**: #FFC107 (Yellow)
-- **Danger**: #DC3545 (Red)
-- **Background**: #F8F9FA (Light Gray)
-
-### Animations
-- ✨ Smooth fade-in/fade-out transitions
-- 🎯 Hover effects on interactive elements
-- 🔄 Loading spinners and progress indicators
-- 🎪 Card flip animations
-- 📍 Modal entrance animations
+| Feature              | Status     |
+| -------------------- | ---------- |
+| Task CRUD            | ✅ Complete |
+| Drag & Drop          | ✅ Complete |
+| Categories           | ✅ Complete |
+| Priorities           | ✅ Complete |
+| Responsive UI        | ✅ Complete |
+| Dark Mode            | ✅ Complete |
+| Authentication       | 🚧 Planned |
+| Database Integration | 🚧 Planned |
+| Analytics Dashboard  | 🚧 Planned |
+| Team Collaboration   | 🚧 Planned |
 
 ---
 
-## 🧪 Testing
+# 🔮 Future Roadmap
+
+## Version 2.0
+
+### 🔐 Authentication
+
+* Login System
+* User Registration
+* JWT Security
+* Profile Management
+
+### 📊 Analytics
+
+* Productivity Charts
+* Completion Metrics
+* Weekly Reports
+* Dashboard Insights
+
+### 🤝 Collaboration
+
+* Team Workspaces
+* Shared Boards
+* Task Assignment
+* User Mentions
+
+### 🤖 AI Features
+
+* Smart Recommendations
+* AI Task Prioritization
+* Auto Categorization
+* Productivity Suggestions
+
+### 📱 Mobile Experience
+
+* Native App
+* Push Notifications
+* Offline Support
+
+---
+
+# 📈 GitHub Activity
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushtripathi-45&theme=react-dark&hide_border=true"/>
+
+</p>
+
+---
+
+# 📊 GitHub Statistics
+
+<p align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ayushtripathi-45&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushtripathi-45&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
 
 ```bash
-# Frontend tests
-cd frontend
-npm run test
-
-# Backend tests
-cd backend
-npm run test
+1. Fork Repository
+2. Create Feature Branch
+3. Commit Changes
+4. Push Branch
+5. Open Pull Request
 ```
 
 ---
 
-## 🤝 Contributing
+# ⭐ Support
 
-Contributions are welcome! Please follow these steps:
+If you found this project useful:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+⭐ Star this Repository
 
-### Code Guidelines
-- Follow TypeScript best practices
-- Write meaningful commit messages
-- Add comments for complex logic
-- Ensure code is properly formatted
-- Run linting before submitting PR
+🍴 Fork this Repository
 
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 👤 Author
-
-**Ayush Tripathi**
-- GitHub: [@ayushtripathi-45](https://github.com/ayushtripathi-45)
-- Project: [Task Management Dashboard](https://github.com/ayushtripathi-45/Task_Management_Dashboard)
-
----
-
-## 🙏 Acknowledgments
-
-- React community for excellent documentation
-- Vite for the amazing build tool
-- Express.js for the robust backend framework
-- All contributors and users who help improve this project
-
----
-
-## 📞 Support & Contact
-
-If you encounter any issues or have suggestions:
-- Open an issue on [GitHub Issues](https://github.com/ayushtripathi-45/Task_Management_Dashboard/issues)
-- Create a discussion in [GitHub Discussions](https://github.com/ayushtripathi-45/Task_Management_Dashboard/discussions)
-
----
-
-## 🎯 Roadmap
-
-- [x] Project setup and initialization
-- [x] Basic frontend UI
-- [x] Express backend structure
-- [ ] User authentication
-- [ ] Database integration
-- [ ] Advanced filtering options
-- [ ] Real-time collaboration
-- [ ] Mobile optimization
-- [ ] Deployment to production
+📢 Share it with Developers
 
 ---
 
 <div align="center">
 
-### ⭐ If you find this project helpful, please consider giving it a star!
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=0:4F46E5,50:7C3AED,100:06B6D4"/>
 
-**Made with ❤️ by Ayush Tripathi**
+## Made with ❤️ by Ayush Tripathi
 
-[GitHub](https://github.com/ayushtripathi-45) • [LinkedIn](#) • [Twitter](#)
+### 🚀 Building Projects • Learning Daily • Growing Consistently
 
 </div>
 
 ---
 
-## 📚 Resources
+**Version:** 1.0.0
 
-- [React Documentation](https://react.dev)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
-- [Express.js Guide](https://expressjs.com/)
-- [Vite Documentation](https://vitejs.dev/)
-- [MDN Web Docs](https://developer.mozilla.org/)
-
----
-
-**Last Updated**: May 14, 2026  
-**Version**: 1.0.0
+**Last Updated:** May 2026
